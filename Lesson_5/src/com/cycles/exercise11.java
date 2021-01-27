@@ -8,8 +8,7 @@ public class exercise11 {
 
 
         int number= 68;
-        int b = 2, c=1;
-        int d = 2;
+        int b = 2, c=1, d = 2 ;
         System.out.println("число " + number);
 
         while (d < number) {

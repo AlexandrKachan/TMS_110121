@@ -7,7 +7,7 @@ public class exercise12 {
 
 
         int number = 12;
-        int b = 2, c = 0, d = 1;
+        int b = 1, c = 0;
         int count = 1;
         System.out.println("число " + number);
 
@@ -17,7 +17,6 @@ public class exercise12 {
                 c = count + c;}
                 System.out.println(" счетчик = " + count);
                 System.out.println(" Делние без остатка = " + b);
-//            System.out.println(" число d = " + d);
                 System.out.println(" число c = " + c);
                 count++;
                 System.out.println(" *******************");

@@ -26,7 +26,10 @@ public class ArraysExample {
         System.out.println("length of array: " + marks.length);
         System.out.println(marks[0]); // value 7
         System.out.println(marks[1]); // value 6
-        //...
+        System.out.println(marks[2]); // value 6
+        System.out.println(marks[3]); // value 6
+        System.out.println(marks[4]); // value 6
+        System.out.println(marks[5]); // value 6
         System.out.println(marks[6]); // value 5
     }
 

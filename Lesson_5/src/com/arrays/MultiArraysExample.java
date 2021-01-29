@@ -32,7 +32,7 @@ public class MultiArraysExample {
 //        }
 
 
-        char [][] arr = new char[10][10];
+        char [][] arr = new char[20][10];
 
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j <arr[i].length; j++) {

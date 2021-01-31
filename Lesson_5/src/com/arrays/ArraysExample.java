@@ -11,7 +11,7 @@ public class ArraysExample {
 
 //        int [] marks = new int[7];
 //        int [] marks = new int[7] {7,6,4,9,8,3,5};           //!!!!!!!!!!!!!!!!!!!!
-        int [] marks = new int[7];
+        int [] marks = new int[17];
 
         for (int i = 0; i < marks.length; i++) {
             marks[i] = rand.nextInt(5) + 5;
@@ -24,6 +24,9 @@ public class ArraysExample {
 
         System.out.println();
         System.out.println("length of array: " + marks.length);
+
+
+
         System.out.println(marks[0]); // value 7
         System.out.println(marks[1]); // value 6
         System.out.println(marks[2]); // value 6

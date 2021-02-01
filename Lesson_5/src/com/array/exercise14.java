@@ -33,8 +33,8 @@ public class exercise14 {
                 minNum = i;// нашли минимальное число
             }
         }
-        System.out.println("Максимальное оценка в масиве: " + max + " ee номер: "+ maxNum);
-        System.out.println("Минимальное  оценка  в масиве: " + min + " ee номер: "+ minNum);
+        System.out.println("Максимальное оценка в масиве: " + max + " ee номер: " + maxNum);
+        System.out.println("Минимальное  оценка  в масиве: " + min + " ee номер: " + minNum);
 
 
     }

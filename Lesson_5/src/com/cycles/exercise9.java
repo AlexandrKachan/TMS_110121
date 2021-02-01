@@ -34,16 +34,16 @@ public class exercise9 {
         double averageProd = 0;
         double prod = 1;
         int n = 0;
-        int y= 4;
+        int y = 4;
         int x = (int) (Math.random() * y); // генерирует рандомное число x
-        System.out.println("рандомное число " +n +" = " + x);
+        System.out.println("рандомное число " + n + " = " + x);
         while (x != 0) { // цикл пока х не равно нулю
             prod *= x; // произведение числа
             n++;      // в счетчик операция добавляет 1
             x = (int) (Math.random() * y); // снова генерирует рандомное число x
 
             System.out.println("произведение= " + prod);
-            System.out.println("рандомное число " +n +" = " + x);
+            System.out.println("рандомное число " + n + " = " + x);
         }
         if (n != 0) {                   // проверка чтобы не поделить на ноль
             averageProd = prod / n;

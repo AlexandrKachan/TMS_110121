@@ -11,14 +11,14 @@ public class exercise10 {
 
         int a = 10;
         int b = a;
-        int c= 15;
-        System.out.print("число произведения" +b);
+        int c = 15;
+        System.out.print("число произведения" + b);
 
-        while ( b<=c){
-            a = a*b;
+        while (b <= c) {
+            a = a * b;
             b++;
             System.out.println(" произведение = " + a);
-            System.out.print(" число произведения" +b);
+            System.out.print(" число произведения" + b);
         }
 
 

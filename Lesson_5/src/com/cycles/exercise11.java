@@ -8,26 +8,25 @@ public class exercise11 {
         // 107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 163, 167
 
 
-        int number= 71;
-        int b = 2, c=1, d = 2 ;
+        int number = 71;
+        int b = 2, c = 1, d = 2;
         System.out.println("число " + number);
 
         while (d < number) {
             b = number % d;
-            if ( b== 0)
-                c=c+1;
+            if (b == 0)
+                c = c + 1;
             System.out.println(" число b = " + b);
             System.out.println(" число d = " + d);
             System.out.println(" число c = " + c);
             d++;
             System.out.println(" *******************");
         }
-if (c==1) {
-    System.out.println(number + " Число простое.");
-}else {
-    System.out.println(number + " Число не простое.");
-}
-
+        if (c == 1) {
+            System.out.println(number + " Число простое.");
+        } else {
+            System.out.println(number + " Число не простое.");
+        }
 
 
     }

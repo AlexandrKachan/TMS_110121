@@ -1,7 +1,7 @@
-package leson_1.tms;
+package leson_1.tms.Shildt;
 
 class Example2_Shildt {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
         int num; //объявляется переменная num
         num=100; // присваевется значение 100

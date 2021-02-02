@@ -1,4 +1,4 @@
-package leson_1.tms;
+package leson_1.tms.Shildt;
 
 public class FOR_Sample_Shildt {
     public static void main(String[] args) {

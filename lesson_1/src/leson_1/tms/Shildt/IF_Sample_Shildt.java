@@ -1,4 +1,4 @@
-package leson_1.tms;
+package leson_1.tms.Shildt;
 
 public class IF_Sample_Shildt {
 

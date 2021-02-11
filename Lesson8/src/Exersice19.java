@@ -1,3 +1,7 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.StringTokenizer;
+
 public class Exersice19 {
 
 
@@ -32,7 +36,34 @@ public class Exersice19 {
 
         System.out.println(str);
         System.out.println("В тексте  " + word + " слов");
+        System.out.println("***************************************************************");
+
+
+//ВАЖНО!!!! сначало пересматриваем урок, потом делаем домашнее задание. И тогда не понадобится придцмывать велосипед...
+
+
+        StringTokenizer st = new StringTokenizer(str," ,:");
+        List<String> wordList = new ArrayList<>();
+        int count = 0;
+
+        while (st.hasMoreTokens()){
+            wordList.add(st.nextToken());
+            count++;
+        }
+        wordList.forEach(System.out::println);
+        System.out.println(wordList);
+        System.out.println("В тексте  " + count + " слов");
+
+
+
+
+
+
 
 
     }
+
+
+
+
 }

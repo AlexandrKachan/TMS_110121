@@ -8,21 +8,18 @@ public class exercise11 {
         // 107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 163, 167
 
 
-        int number = 71;
-        int b = 2, c = 1, d = 2;
+        int number = 167,d = 2;
+        boolean prost = true;
         System.out.println("число " + number);
 
         while (d < number) {
-            b = number % d;
-            if (b == 0)
-                c = c + 1;
-            System.out.println(" число b = " + b);
-            System.out.println(" число d = " + d);
-            System.out.println(" число c = " + c);
+            if (number % d == 0) {
+                prost=false;
+                break;
+            }
             d++;
-            System.out.println(" *******************");
         }
-        if (c == 1) {
+        if (prost) {
             System.out.println(number + " Число простое.");
         } else {
             System.out.println(number + " Число не простое.");

@@ -6,7 +6,7 @@ public class exercise12 {
         // найти сумму первых Н целых чисел которые делятся на 3
 
 
-        int number = 12;
+        int number = 3;
         int b = 1, c = 0;
         int count = 1;
         System.out.println("число " + number);

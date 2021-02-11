@@ -9,16 +9,17 @@ public class exercise10 {
 
         // Посчитать факториал числа в границах от 10 до 15
 
-        int a = 10;
+        int a = 1;
         int b = a;
         int c = 15;
-        System.out.print("число произведения" + b);
 
         while (b <= c) {
             a = a * b;
+            if (b>9) {
+                System.out.println("Факториал числа " + b + " = " + a);
+            }
+
             b++;
-            System.out.println(" произведение = " + a);
-            System.out.print(" число произведения" + b);
         }
 
 

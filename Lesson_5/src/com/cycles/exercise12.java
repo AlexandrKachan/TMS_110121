@@ -6,25 +6,23 @@ public class exercise12 {
         // найти сумму первых Н целых чисел которые делятся на 3
 
 
-        int number = 3;
-        int b = 1, c = 0;
-        int count = 1;
-        System.out.println("число " + number);
+        int num = 4, count = 1;
+        int i = 1, sum = 0;
+        System.out.println("число " + num);
 
-        while (count <= number) {
-            b = count % 3;
-            if (b == 0) {
-                c = count + c;
-            }
-            System.out.println(" счетчик = " + count);
-            System.out.println(" Делние без остатка = " + b);
-            System.out.println(" число c = " + c);
-            count++;
-            System.out.println(" *******************");
+
+        while (count <=num) {
+            if (i % 3 == 0) {
+                count++;
+                sum += i;}
+
+            i++;
+
+
         }
 
-        System.out.println(number + " Заданое чмсло Н.");
-        System.out.println(c + " Сумма первых н чисел которые делятся на 3");
+        System.out.println(num + " Заданое чмсло Н.");
+        System.out.println(sum + " Сумма первых н чисел которые делятся на 3");
     }
 
 

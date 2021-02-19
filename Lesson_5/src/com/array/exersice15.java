@@ -22,8 +22,8 @@ public class exersice15 {
         System.out.println("исходный массив");
 
 
-        for (int i = 0; i < arr.length; i++) {
-            if (i == arr.length / 2) break;        // пока длинна масива не больше его половины
+        for (int i = 0; i < arr.length/2; i++) {
+           // if (i == arr.length / 2) break;        // пока длинна масива не больше его половины
             int b = arr[i];                      //число и забирает значение I массива
             arr[i] = arr[arr.length - i - 1];   // первому элементу присваивается значение последнего
             arr[arr.length - i - 1] = b;       // последнему элементу примваивается значение из числа б.

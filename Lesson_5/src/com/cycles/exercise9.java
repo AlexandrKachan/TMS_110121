@@ -35,7 +35,7 @@ public class exercise9 {
         double prod = 1;
         int n = 0;
         int x = (int) (Math.random() * 10); // генерирует рандомное число x
-    //    System.out.println("рандомное число " + n + " = " + x);
+
         while (x != 0) { // цикл пока х не равно нулю
             prod *= x; // произведение числа
             n++;      // в счетчик операция добавляет 1

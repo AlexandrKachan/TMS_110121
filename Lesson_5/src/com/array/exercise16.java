@@ -17,6 +17,11 @@ public class exercise16 {
         }
 
         for (int i = 0; i < array.length; i++) {
+            System.out.print(i + " "); //Вывели длинну масива  на печать
+            }
+        System.out.println();
+
+        for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + " "); //Вывели его на печать
         }
         System.out.println("length of array: " + array.length); // Вывели длинну масива

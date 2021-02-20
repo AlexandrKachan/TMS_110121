@@ -1,6 +1,18 @@
 public class Test {
 
+    static int a=5;
+    final static int b = 10;
+
+
+
+
     public static void main(String[] args) {
+        System.out.println(a);
+        System.out.println(b);
+
+
+
+
         int sum = 2000;
         System.out.println(sum);
 

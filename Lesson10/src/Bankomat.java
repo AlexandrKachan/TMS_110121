@@ -1,4 +1,4 @@
-public class Bankomat {
+public class Bankomat extends BankomatRuner {
     public int twenty;
     private int fifty;
     private int hundred;
@@ -7,6 +7,7 @@ public class Bankomat {
 
 
     //конструктор
+
     Bankomat(int twenty, int fifty, int hundred) {
         this.twenty = twenty;
         this.fifty = fifty;
@@ -16,7 +17,7 @@ public class Bankomat {
     }
 
     // метод добавляем деньги
-    public void addMoney(int sumAdd) {
+    protected void addMoney(int sumAdd) {
         System.out.println(" Внесите купюру номиналом 20, 50 или 100 долларов");
         if (sumAdd == 20) {
             this.twenty = sumAdd / 20 + twenty;
@@ -42,7 +43,7 @@ public class Bankomat {
     }
 
     // метод снимаем деньги
-    public void removeMoney(int sumRemove) {
+    protected void removeMoney(int sumRemove) {
         System.out.println("Снимаем " + sumRemove + " долларов");
         //printMoney();
         if (sumRemove > totalMoney) {
@@ -86,7 +87,7 @@ public class Bankomat {
     }
 
 
-    public void tMoney() {
+    protected void tMoney() {
         totalMoney = this.twenty * 20 + this.fifty * 50 + this.hundred * 100;
     }
 
@@ -131,6 +132,7 @@ class BankomatRuner {
 
 
 }
+
 
 
 

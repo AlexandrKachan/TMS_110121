@@ -1,4 +1,4 @@
-package leson_1.tms.Shildt;
+package leson_1.tms.Shildt.Example;
 
 //Вычислить растояние проходимое светом используя Long
 //страница 78

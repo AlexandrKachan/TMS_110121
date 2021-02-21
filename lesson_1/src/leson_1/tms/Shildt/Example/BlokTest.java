@@ -1,4 +1,4 @@
-package leson_1.tms.Shildt;
+package leson_1.tms.Shildt.Example;
 
 public class BlokTest {
     public static void main(String[] args) {

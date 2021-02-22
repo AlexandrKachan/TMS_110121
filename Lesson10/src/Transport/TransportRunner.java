@@ -25,8 +25,5 @@ public class TransportRunner {
         am.shootMiss();
         am.eject();
 
-        System.out.println();
-
-
     }
 }

@@ -30,6 +30,7 @@ abstract class Transport {
     public void setSpeed() {
         this.speed = speed;
     }
+
     public double getWeight() {
         return weight;
     }
@@ -37,8 +38,10 @@ abstract class Transport {
     public void setWeight() {
         this.weight = weight;
     }
-    public void print(){
-        System.out.println(getBrand()+ getSpeed() + getPower() + getWeight() );
+
+
+    public void print() {
+        System.out.println(getBrand() + getSpeed() + getPower() + getWeight());
     }
 }
 

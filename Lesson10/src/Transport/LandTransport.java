@@ -1,6 +1,6 @@
 package Transport;
 
-public class LandTransport extends Transport {
+abstract class LandTransport extends Transport {
     int wheels;// количество колес
     double fuel; // расход топлива
 

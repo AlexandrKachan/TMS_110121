@@ -1,6 +1,6 @@
 package Transport;
 
-public class AirTransport extends Transport {
+abstract class AirTransport extends Transport {
     double wingspan; // размах крыльев
     double runway; // взлетная полоса
 

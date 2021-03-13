@@ -28,6 +28,7 @@ public class Exercise33 {
         } finally {
             writer.close();
         }
+//читаем файл
 
         BufferedReader fileInputStream = new BufferedReader(new FileReader("text.txt"));
         String res = fileInputStream.readLine();

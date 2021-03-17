@@ -1,4 +1,4 @@
-package leson_1.tms.Shildt;
+package leson_1.tms.Shildt.Example;
 
 import java.io.BufferedReader;
 import java.io.IOException;
